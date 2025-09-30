@@ -1,0 +1,17 @@
+body{
+    height: 500px;
+}
+#card{
+    width: 200px;
+}
+.minha-lista-flex{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.minha-lista-flex li{
+    flex-basis: 33.33%;
+}
